@@ -1,0 +1,51 @@
+{
+  "ssh":"enable",
+  "sshPassword":"raspberry",
+  "timeoutToGetOdooUID": 6.0,
+  "timeoutToCheckAttendance": 3.0,
+  "periodEvaluateReachability": 5.0,
+  "periodDisplayClock":10.0,
+  "timeToDisplayResultAfterClocking": 1.2,
+  "SSIDreset": "__RAS__",
+  "fileForMessages": "messagesDicDefault.json",
+  "firmwareVersion": "v1.4.3",
+  "language": "ENGLISH",
+  "manufacturingData": {
+    "firmwareAtShipment": "prior to v1.4.2",
+    "productName": "RAS2",
+    "productionDate": "before October 2020",
+    "productionLocation": "Frankfurt",
+    "productionNumber": "before October 2020",
+    "qualityInspector": "Luis"
+  },
+  "odooConnectedAtLeastOnce": false,
+  "odooParameters": {
+    "admin_id": [
+      "ffffffff"
+    ],
+    "db": [
+      "1"
+    ],
+    "https": false,
+    "odoo_host": [
+      "odoo12.simetri-sinergi.id"
+    ],
+    "odoo_port": [
+      "80"
+    ],
+    "timezone": [
+      "+07:00"
+    ],
+    "user_name": [
+      "admin"
+    ],
+    "user_password": [
+      "admin"
+    ]
+  },
+  "showEmployeeName": "yes",
+  "wifi": {
+    "Password": "SSID PSSWD",
+    "SSID": "SSID NAME"
+  }
+}
